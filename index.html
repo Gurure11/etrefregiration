@@ -2,121 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Dutch Milo African Success">
-	<meta name="keywords" content="aircon repairs, roofing, cold romm, freezer room">
-	<title>DUTCH MILO AFRICAN SUCCESS (PTY) Ltd</title>
+	<title>Dutch Milo African Success</title>
+	<meta name="description" content="Stepping Stone">
+	<meta name="keywords" content="nursery school, creche, pre-school">
 	<style type="text/css">
-		#main-heading{
-
-			font-family: cursive;
-			color: darkblue;
-			font-size: 30px;
-			text-align: center;
-		}
-		#details{
-			background-color: blue;
-			color: white;
-			font-size: 20px;
-			text-align: center;
-
-
-		}
-		#contacts{
-			background-color: blue;
-			color: white;
-			font-size: 20px;
-			text-align: center;
-			margin-left: 12px;
-
-		}
-		#main-body{
-			background-image: url(images/f.jpg);
-			background-size: cover;
-			text-align: center;
-
-		}
-		#services{
-			background-color: blue;
-			color: white;
-			font-size: 20px;
-			text-align: center;
-			margin-left: 12px;
-		}
-		#details:hover{
-			color: blue;
-			cursor: pointer;
-			opacity: 0.7;
-			background-color: white;
-			transition: 0.15s;
-		}
-		#contacts:hover{
-			color: blue;
-			cursor: pointer;
-			opacity: 0.7;
-			background-color: white;
-			transition: 0.15s;
-		}
-		#services:hover{
-			color: blue;
-			cursor: pointer;
-			opacity: 0.7;
-			background-color: white;
-			transition: 0.15s;
-		}
-		
-	@-webkit-keyframes slide_animation{
-		0% {left:0px;}
-		10% {left:0px;}
-		20% {left:800px;}
-		30% {left:800px;}
-		40% {left:1600px;}
-		50% {left:1600px;}
-		60% {left:800px;}
-		70% {left:800px;}
-		80% {left:0px;}	
-		90% {left:0px;}
-		100% {left:0px;}
-		
-	}
-	.slide-images{
-		width: 800px;
-		margin: 0 0 0 -800px;
-		position: relative;
-		-webkit-animation-name: slide_animation;
-		-webkit-animation-duration: 20s;
-		-webkit-animation-iteration-count: infinite;
-		-webkit-animation-direction: alternate;
-		-webkit-animation-play-state: running;
-	}
-	.image-container{
-		width: 900px;
-		position: relative;
-		float: left;
-		height: 800px;
-	}
-			#container{
-			width: 100%;
-			min-height: 100vh;
-			padding: 5%;
-			background-image: url(images/search);
-			background-position: center;
-			background-size: cover;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-		}
-		.slider-frame{
-		overflow: hidden;
-		width: 800px;
-		margin-left: 400px;
-		margin-top: 20px;
-		height: 700px;
-		margin-left: 360px;
-		margin-top: 20px;
-		}
-	*{
+		*{
 			padding: 0;
 			margin: 0;
 			text-decoration: none;
@@ -124,24 +14,25 @@
 			box-sizing: border-box;
 		}
 		nav{
-			background: green;
+			background: blue;
 			height: 80px;
 			width: 100%;
+			display: inline-block;
 		}
 		#main-head{
-			font-size: 35px;
-			color: green;
+			font-size: 20px;
+			color: white;
 			line-height: 80px;
-			background-size: cover;
-			display: block;
+			display: inline-block;
 			margin-bottom: 0px;
-			text-align: center;
+			float: left;
 
 
 		}
 		nav ul{
 			float: right;
 			margin-right: 20px;
+			display: inline-block;
 
 		}
 		nav ul li{
@@ -165,18 +56,7 @@
 				transition: 0.15s;
 				
 
-			}
-			.checkbtn{
-				font-size: 30px;
-				color: white;
-				float: right;
-				line-height: 80px;
-				margin-right: 40px;
-				cursor: pointer;
-				display: none;
-			}
-			#check{
-				display: none;
+			
 			}
 			
 			nav ul li a:hover{
@@ -187,37 +67,92 @@
 				padding-top: 5px;
 				padding-bottom: 5px;
 				transition: 0.15s;
-				opacity: 0.5;
+				opacity: 0.5;}
+	
+
+			
+		#slider{
+			overflow: hidden;
+		}
+		#slider figure{
+			position: relative;
+			width: 500%;
+			margin: 0;
+			left: 0;
+			animation: 20s slider infinite;
+
+		}
+		#slider figure img{
+			float: left;
+			width: 20%;
+		}
+		@keyframes slider{
+			0%{
+				left: 0;
 			}
+			20%{
+				left: 0;
+			}
+			25%{
+				left: -100%;
+			}
+			45%{
+				left: -100%;
+			}
+			50%{
+				left: -200%;
+			}
+			70%{
+				left: -200%;
+			}
+			75%{
+				left: -300%;
+			}
+			95%{
+				left: -300%;
+			}
+			100%{
+				left: -400%;
+			
+		}
+		.facebook{
+			width: 20px;
+			border-radius: 1px;
+		}
+		.instagram{
+			width: 10px;
+			border-radius: 1px;
+		}
+
 	</style>
 </head>
-<body id="main-body">
-	<h1 id="main-heading">DUTCH MILO AFRICAN SUCCESS (PTY) Ltd</h1><br>
-	<small>Reg:2021/124324/07</small>
+
 	<br>
-	<br>
-	<hr>
-	<a id="details" href="details.html">About Us</a>
-	<a id="services" href="details.html">Services</a>
-	<a id="contacts" href="contacts.html">Contacts</a>
+<body>
 	
-	<br>
-	<br>
-	<br>
-	
-	<div class="slider-frame">
-	<div class="slide-images">
+	<nav>
+
+
+<h6 id="main-head">Dutch Millo African Success</h6><br>
 		
-			
-			<div class="img-container">
-				<img  src="images/x.jpg">
-				
-			</div>
-
-			</div>
-</div>
 	
+	<ul>
+		<li><a class="active" href="index.html">Home</a></li>
+		<li><a href="details.html">About Us</a></li>
+		<li><a href="details.html">Services</a></li>
+		<li><a href="contacts.html">Contacts</a></li>
+	</ul>
+	</nav>
 
 
+<div id="slider">
+	<figure>
+	<img src="images/da.jpg">
+	<img src="images/de.jpg">
+	<img src="images/di.jpg">
+	<img src="images/do.jpg">
+	</figure>
+	
+</div>
 </body>
 </html>
