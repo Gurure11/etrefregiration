@@ -176,7 +176,20 @@
 			border-radius: 5px;
 			align-items: center;
 		}
-
+		#button{
+			color: white;
+			background-color: white;
+			border-radius: 5px;
+			border: none;
+			
+		}
+		#button:hover{
+			color: blue;
+			background-color: white
+			cursor: pointer;
+			opacity: 0.6;
+			transition: 0.19s;
+		}
 	</style>
 </head>
 <body id="main-body">
@@ -221,7 +234,7 @@
 				<option value="visa">Visa</option>
 				<option value="mastercard">Mastercard</option>
 			</select>
-			
+			<button id="button" type="submit">Submit Payment</button>
 		</form>
 		<br>
 	<hr>
