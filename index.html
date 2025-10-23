@@ -263,13 +263,14 @@
     setInterval(()=>{idx=(idx+1)%total;go(idx)},6000);
 
     // WhatsApp form helper
-    function sendMessage(e){e.preventDefault();const name=document.getElementById('name').value;const phone=document.getElementById('phone').value;const subj=document.getElementById('subject').value;const msg=document.getElementById('message').value;const text=`Name: ${name}%0APhone: ${phone}%0AJob: ${subj}%0ADetails: ${msg}`;const waNumber='27831234567';window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`,'_blank');return false}
+    function sendMessage(e){e.preventDefault();const name=document.getElementById('name').value;const phone=document.getElementById('phone').value;const subj=document.getElementById('subject').value;const msg=document.getElementById('message').value;const text=`Name: ${name}%0APhone: ${phone}%0AJob: ${subj}%0ADetails: ${msg}`;const waNumber='+27652254482';window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`,'_blank');return false}
   </script>
 </body>
 </html>
 	
 	
 	
+
 
 
 
